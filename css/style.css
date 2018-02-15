@@ -1,0 +1,118 @@
+.background-img {
+  background:url(../images/book.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quote-text {
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.quote-author {
+    padding-bottom: 1em;
+    padding-right: 50px;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.quote-form {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF5D7;
+    opacity: 0.7;
+}
+
+.row-pad {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.quote-container {
+    padding-top: 200px;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.btn-responsive{
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.float-right{
+  float: right;
+
+}
+
+.float-left{
+  float: left;
+}
+
+.img-quote{
+  width: 75px;
+}
+
+@media(max-width:767px) {
+ .quote-text {
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+  .quote-author {
+    padding-bottom: 1em;
+    padding-right: 30px;
+    font-size: 1em;
+    text-align: right;
+}
+  .quote-form {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF5D7;
+    opacity: 0.7;
+}
+  .row-pad {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.quote-container {
+    padding-top: 150px;
+    padding-bottom:30px;
+    text-align: center;
+
+}
+  .img-quote{
+  width: 55px;
+}
+
+  .btn-responsive{
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+}
